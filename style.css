@@ -1,0 +1,89 @@
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  
+  header, nav {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-item {
+    transition: all 0.2s;
+  
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .secondary-menu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .secondary-menu span {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .secondary-menu .active {
+    font-weight: bold;
+   
+  }
+  
+  .secondary-menu i {
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-item span:nth-child(4) {
+    font-size: large;
+  }
+  
+  
+  .country {
+    color: #000000; /* Replace with the color you want for the country text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .timestamp {
+    color: #32a5c5; /* Replace with the color you want for the timestamp text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  h2 {
+    align-self: left
+    ;
+    font-weight: bold;
+  }
+  
+  p {
+    font-weight: lighter;
+  }
+  
+  img {
+    align-self: center;
+  }
