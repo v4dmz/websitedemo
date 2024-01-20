@@ -14,6 +14,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
+
   
   .flex-container {
     display: flex;
@@ -31,11 +32,43 @@ body {
     transition: all 0.2s;
   
   }
+
+  .nav-item {
+    font-family: "Roboto Serif", Palatino, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 300 ;
+    font-style: italic;
+  }
   
   .nav-item:hover {
     text-decoration: underline;
     cursor: pointer;
   }
+
+  .top {
+    color: rgb(219, 130, 64);
+  }
+
+  .border-t {
+    border-top-width: 2px !important;
+    border-color: rgb(140, 130, 115);
+}
+
+.border-b {
+  border-bottom-width: 2px !important;
+}
+
+.nav2 {
+  font-family: "Fjalla One", "Arial Narrow", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+  font-size: 25px !important;
+  line-height: 20px !important;
+}
+
+.nav2:hover {
+  color: rgb(219, 130, 64);
+  text-decoration: none;
+}
   
   .secondary-menu {
     display: flex;
@@ -87,3 +120,15 @@ body {
   img {
     align-self: center;
   }
+
+  .bb {
+    border-bottom: solid 1px #38817D;
+    width: 50px !important;
+  }
+
+  .bb1 {
+    border-bottom: solid 1px #38817D;
+    width: 50px !important;
+    margin-top: 5px;
+  }
+
